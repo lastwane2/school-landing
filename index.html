@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="https://fontlibrary.org//face/acari-sans"
+      type="text/css"
+    />
+
+    <link rel="stylesheet" href="./glide.core.min.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-logo-wrapper">
+        <img src="./assets/images/logo.svg" alt="Профи репетитор" />
+      </div>
+      <nav>
+        <navitem>О нас</navitem>
+        <navitem>Обучение</navitem>
+        <navitem>Результаты</navitem>
+        <navitem>Отзывы</navitem>
+        <navitem>Контакты</navitem>
+      </nav>
+      <button class="header-button" type="button">Записаться на занятие</button>
+    </header>
+    <div class="header-devider"></div>
+    <main>
+      <div class="previews-container">
+        <div class="glide">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <div class="preview-block-container">
+                  <div class="preview-text-container">
+                    <h2>Подготовим к <span class="head-span">ЕГЭ</span> с любого уровня до результата</h2>
+                    <ul class="preview-advantages">
+                      <li class="preview-advantage"><span class="advantage-span">Без стресса &#x200b;</span> для ребенка</li>
+                      <li class="preview-advantage"><div><span class="advantage-span">Опытные преподаватели</span> и актуальные материалы с учётомобновлений от ФИПИ</div></li class="preview-advantage">
+                      <li class="preview-advantage">Сопровождаем до <span class="advantage-span">поступления</span></li>
+                    </ul>
+                    <button class="preview-button">Пробный урок</button>
+                  </div>
+                  <div class="preview-img-container first-image-container ">
+                    <img class="preview-image" src="./assets/images/smartGuy.png" alt="" />
+                    <img class="preview-image-background" src="./assets/images/firstEllipse.svg" alt="" />
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="preview-block-container">
+                  <div class="preview-text-container">
+                    <div class="preview-head-second-wrapper">
+                      <h2 class="preview-head-second">Запишитесь на <span class="head-span">бесплатное</span> пробное занятие с репетитором</h2>
+                    </div>
+                    <ul class="preview-advantages">
+                      <li class="preview-advantage"><div>В соответствии с целями &#x200b; <span class="advantage-span">подбираем репетитора</span>, который поможет достичь желаемого результата</div></li>
+                      <li class="preview-advantage">
+                        <span class="advantage-span">Проанализируем</span> &#x200b; ваш уровень знаний
+                      </li class="preview-advantage">
+                      <li class="preview-advantage">Составим &#x200b; <span class="advantage-span">индивидуальный план</span> &#x200b; обучения</li>
+                    </ul>
+                    <button class="preview-button">Записаться на пробное занятие</button>
+                  </div>
+                  <div class="preview-img-container second-image-container">
+                    <img class="preview-image second-preview-image" src="./assets/images/employee.png" alt="" />
+                    <img class="preview-image-background" src="./assets/images/secondEllipse.svg" alt="" /> 
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="preview-block-container third-block-preview-container">
+                  <div class="preview-img-container first">
+                    <img class="preview-image third-preview-image" src="./assets/images/student.png" alt="" />
+                    <img class="preview-image-background thrid-background" src="./assets/images/thirdEllipse.svg" alt="" />
+                  </div>
+                  <div class="preview-text-container">
+                    <h2>Повысим успеваемость и начнем готовиться к <span class="head-span">ВПР</span> и <span class="head-span">ОГЭ</span></h2>
+                    <ul class="preview-advantages">
+                      <li class="preview-advantage"><div>Интерактивные задания и <span class="advantage-span">комфортное</span> общение с преподавателем</div></li>
+                      <li class="preview-advantage"><div>Только актуальные материалы 2025 года с <span class="advantage-span">опытными</span> преподавателями</div></li class="preview-advantage">
+                      <li class="preview-advantage">С любым уровнем &#x200b;<span class="advantage-span">подготовки</span></li>
+                    </ul>
+                    <button class="preview-button">Пробный урок</button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+              <img src="assets/images/arrow.svg" alt="" class="arrow-left"/>
+            </button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+              <img src="assets/images/arrow.svg" alt="" class="arrow-right"/>
+            </button>
+          </div>
+        </div>
+      </div>
+      
+      <script src="./js/glide/glide.js"></script>
+      <script>
+        const config = {
+          type: "carousel",
+        };
+
+        new Glide(".glide", config).mount();
+      </script>
+
+
+      <div class="advantages-container">
+        <h2 class="table-structured-block-title" align="center">Почему нас выбирают</h2>
+        <div class="advantages-table-structured-block-container">
+          <div class="table-row">
+            <div class="table-cell advantages-cell-first">
+              <p class="first-cell-paragraph">75+</p>
+              результаты наших учеников на ЕГЭ
+            </div>
+            <div class="table-cell advantages-cell-second">
+              <p class="head-paragraph">Репетиторы обученные
+                работать с мотивацией</p>
+                <img class="second-cell-image" src="./assets/images/brokenArrow.png" alt=""/>
+                <img class="second-cell-image-first" src="./assets/images/thirtyPoints.png" alt=""/>
+                <img class="second-cell-image-second" src="./assets/images/twentyPoints.png" alt=""/>
+              </div>
+          </div>
+          <div class="table-row">
+            <div class="table-cell advantages-cell-third">
+              <div class="second-cell-paragraphs-container">
+                <p class="head-third-cell-paragraph">Регулярная сдача пробных ЕГЭ/ОГЭ</p>
+                <p class="content-paragraph">для мониторинга баллов и ведения
+                  таблицы успеваемости ребенка</p>
+              </div>
+              <img class="third-cell-image" src="./assets/images/notebook.png" alt=""/>
+            </div>
+            <div class="table-cell advantages-cell-fourth">
+              <p class="fourth-cell-paragraph">оценки наших
+                учеников за ОГЭ</p>
+              <p class="fourth-cell-image">5</p>
+            </div>
+          </div>
+          <div class="table-row">
+            <div class="table-cell advantages-cell-fifth">
+              <p class="head-fifth-cell-paragraph">Анкета на интересы
+                и увлечения ребенка</p>
+              <p class="content-paragraph">
+                Чтобы учебный процесс проходил
+                интереснее и был индивидуальнее,
+                мы спрашиваем у родителей интересы
+                ребенка и применяем их во время занятий
+              </p>
+              <img class="fifth-cell-image" src="./assets/images/interestingMessage.png" alt=""/>
+            </div>
+            <div class="table-cell advantages-cell-sixth">
+              <p class="head-fifth-cell-paragraph sixth-cell-head">
+                Личная поддержка
+                с репетитором на всех
+                этапах обучения
+              </p>
+              <p class="content-paragraph ">
+                Мы за индивидуальный подход, поэтому на всех этапах обучения ученика 
+                будет поддерживать, мотивировать, проверять домашние задания и давать 
+                персональные рекомендации лично педагог
+              </p>
+              <img class="sixth-cell-image" src="./assets/images/twoMessages.png" alt=""/>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="usefulness-container">
+        <h2 class="table-structured-block-title" align="center">Мы поможем тебе, если:</h2>
+        <div class="usefulness-table-structured-block-container">
+          <div class="table-row">
+            <div class="table-cell usefulness-cell-first">
+              <p class="head-fifth-cell-paragraph usefulness-first-cell-head">
+                Учишься в школе и будешь сдавать ОГЭ и ЕГЭ
+              </p>
+              <img class="usefulness-cell-first-image" src="./assets/images/chillingGirl.png" alt=""/>
+            </div>
+            <div class="table-cell usefulness-cell-second">
+              <p class="head-fifth-cell-paragraph usefulness-second-cell-head">
+                Хочешь улучшить оценки и повысить успеваемость
+              </p>
+            </div>
+          </div>
+          <div class="table-row">
+            <div class="table-cell usefulness-cell-third">
+              <p class="head-fifth-cell-paragraph usefulness-third-cell-head">
+                Нужен опытный наставник для разбора тем и объяснения задач
+              </p>
+              <img class="usefulness-cell-third-image" src="./assets/images/books.png" alt=""/>
+            </div>
+            <div class="table-cell usefulness-cell-fourth">
+              <p class="head-fifth-cell-paragraph usefulness-second-cell-head">
+                Боишься, что текущих знаний не хватит для цели
+              </p>
+            </div>
+
+            <div class="table-cell usefulness-cell-fifth">
+              <p class="head-fifth-cell-paragraph usefulness-first-cell-head">
+                Теряешь мотивацию в подготовке и обучении
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="trial-lesson-container">
+        <div class="trial-lesson-content">
+          <h3 class="trial-lesson-head">
+            Начать можно <span class="trial-lesson-span">бесплатно</span>
+          </h3>
+          <p class="trial-lesson-paragraph">
+            Для новых учеников мы проводим пробное
+            45-минутное занятие, чтобы вы могли
+            познакомиться с репетитором и форматом.
+          </p>
+          <button class="preview-button">Пробный урок</button>
+        </div>
+        <img class="trial-lesson-image" src="./assets/images/trialLessonImage.png" alt=""/>
+      </div>
+      
+      <div class="lesson-example-container">
+        <h2 class="table-structured-block-title" align="left">Как проходят уроки</h2>
+        <p class="lesson-example-paragraph">
+          Онлайн-платформа – удобное место для изучения школьных предметов
+        </p>
+        <video width="100%" height="642" controls="controls autoplay">
+          <source src="./assets/images/123.MP4" type="video/mp4" />
+        </video>
+      </div>
+    
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-top-container">
+          <div class="footer-logo-wrapper">
+            <h4 class="footer-logo">ПРОФИ<br>РЕПЕТИТОР</h4>
+          </div>
+
+          <div class="footer-social-container">
+            <div class="footer-number-container">
+              <p class="footer-paragraph">cвязаться</p>
+              <h4 class="footer-number">+7 (993) 960-93-50</h4>
+            </div>
+            
+            <div class="footer-social-media-container">
+              <p class="footer-paragraph">мы в соц. сетях</p>
+              <div class="footer-social-media-icons">
+                <a href="#" class="footer-icon-wrapper"><img src="assets/images/tg.svg" alt="" class="footer-social-media-icon"/></a>
+                <a href="#" class="footer-icon-wrapper"><img src="assets/images/vk.svg" alt="" class="footer-social-media-icon"/></a>
+                <a href="#" class="footer-icon-wrapper"><img src="assets/images/yt.svg" alt="" class="footer-social-media-icon"/></a>
+              </div>
+            </div>
+            </div>
+          </div>
+          <span class="footer-devider"></span>
+          <div class="footer-bottom-container">
+            <p class="footer-paragraph">ИП Жукова Виктория Дмитриевна <br>ОГРН 308691433900017 &#x200b; &#x200b; &#x200b;ИНН 694201027613</p>
+            <p class="footer-paragraph">@2025 “PROFI репетитор“. Все права защищены &#x200b; &#x200b; &#x200b;  &#x200b; &#x200b; &#x200b;Оферта</p>
+          </div>
+        
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
