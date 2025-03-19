@@ -241,9 +241,104 @@
           Онлайн-платформа – удобное место для изучения школьных предметов
         </p>
         <video width="100%" height="642" controls="controls autoplay">
-          <source src="./assets/images/123.MP4" type="video/mp4" />
+          <source src="./assets/images/videoLesson.MP4" type="video/mp4" />
         </video>
       </div>
+
+      <div class="age-container">
+        <div class="age-block">
+          <h4 class="age-block-head">
+            1-4 класс
+          </h4>
+          <p class="age-block-content">
+            Привьем любовь у обучению и сделаем лучшим учеником в классе
+          </p>
+        </div>
+        <div class="age-block">
+          <h4 class="age-block-head">
+            5-8 класс
+          </h4>
+          <p class="age-block-content">
+            Научим обучаться с удовольствием, повысим успеваемость и начнем готовить к ВПР и ОГЭ
+          </p>
+        </div>
+        <div class="age-block">
+          <h4 class="age-block-head">
+            9 класс ОГЭ
+          </h4>
+          <p class="age-block-content">
+            Поможем успешно сдать экзамен и поступить колледж или старшие классы
+          </p>
+        </div>
+        <div class="age-block">
+          <h4 class="age-block-head">
+            11 класс ЕГЭ
+          </h4>
+          <p class="age-block-content">
+            Доведем до нужного результата. С нами вы сдадите ЕГЭ на высокий балл
+          </p>
+        </div>
+      </div>
+
+      <div class="results-container">
+        <h2 class="table-structured-block-title" align="left">Результаты учеников</h2>
+        <div class="glide-results">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <div class="results-block">
+
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="results-block">
+
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="results-block">
+
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="results-block">
+                  
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="results-block">
+                  
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="results-block">
+                  
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="results-block">
+                  
+                </div>
+              </li>
+            </ul>        
+          </div>
+        
+          <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+          </div>
+        </div>
+      </div>
+
+      <script src="./js/glide/glide.js"></script>
+      <script>
+        const config2 = {
+          type: "carousel",
+          perView: 2
+        };
+
+        new Glide(".glide-results", config2).mount();
+      </script>
     
     </main>
 

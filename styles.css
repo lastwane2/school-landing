@@ -528,6 +528,50 @@ h2 {
 
 /* ________________________________________________________________________________________________________________________________________________ */
 
+.age-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 160px;
+}
+
+.age-block {
+    width: 565px;
+    height: 222px;
+    border-radius: 20px;
+    background-color: #F3F4F7;
+    padding: 32px 74px 62px 37px;
+}
+
+.age-block-head {
+    font-weight: 600;
+    font-size: 38px;
+    color: #6079D1;
+    margin: 0 0 17px 0;
+}
+
+.age-block-content {
+    font-weight: 300;
+    font-size: 24px;
+    color: #515050;
+    margin: 0;
+}
+
+/* ________________________________________________________________________________________________________________________________________________ */
+
+.results-container {
+    position: relative;
+}
+
+.results-block {
+    height: 407px;
+    background-color: #F3F4F7;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+
+/* ________________________________________________________________________________________________________________________________________________ */
+
 footer {
     background-color: #272727;
     height: 294px;
